@@ -1,0 +1,6 @@
+export const name="Sivasankar P"
+export const about ="I’m a Frontend Developer with experience in Flutter and React. I specialize in building applications from scratch and have hands-on experience publishing apps to both the Google Play Store and Apple App Store. I'm passionate about creating seamless, beautiful, and user-focused digital experiences."
+export const phone="9159032689"
+export const mail="sivasankarp482001@gmail.com"
+export const github="https://github.com/sivasankarp01"
+export const linkedin="https://www.linkedin.com/in/sivasankar-p-97b2ba274"
