@@ -44,11 +44,7 @@ function Projects() {
       description: "Venue Management System",
       links: {
         gitHub: "https://github.com/sivasankarp01",
-<<<<<<< HEAD
-        hosted: "https://play.google.com/store/apps/details?id=com.zigma.vmsapp"
-=======
         hosted: "https://play.google.com/store/apps/details?id=com.vms.vmsapp"
->>>>>>> cd14216 (changes)
       },
       tags: [
         "Flutter", "dart", "Hive","Secure Storage"
