@@ -3,6 +3,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import advancereact from "../assets/images/advance-react.jpeg"
 import frontend from "../assets/images/frontend.jpeg"
 import recatbasic from "../assets/images/reactbasic.jpeg"
+import version from "../assets/images/versioncontrol.jpeg"
 const Certificates = () => {
   const certificates = [
     {
@@ -33,7 +34,7 @@ const Certificates = () => {
       title: "Version Control-Meta",
       description:
         "Implement Version Control systems,Navigate and configure using the command line, Use a GitHub repository. Create a GitHub repository,Manage code revisions",
-      image: recatbasic,
+      image: version,
       imageAlt: "Version Control",
       link: "https://coursera.org/share/e4ed352fdab15cd82a6facedbe0e4290",
     },
