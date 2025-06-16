@@ -19,6 +19,9 @@ import flutter_logo from "../assets/images/flutter.png"
 import grafana_logo from "../assets/images/grafana.jpeg"
 import postman_logo from "../assets/images/postman.jpeg"
 import androi_logo from "../assets/images/android.png"
+import vite_logo from "../assets/images/vitejss.png"
+import figma_logo from "../assets/images/figma.png"
+import photoshoplogo from "../assets/images/photoshop.png"
 
 function Skills() {
   const [name, setName] = useState(null);
@@ -42,26 +45,29 @@ function Skills() {
       items: [
         { src: flutter_logo, alt: "Flutter" },
         { src: React_Logo, alt: "React" },
+        { src: vite_logo, alt: "Vite" },
         { src: Bootstrap_Logo, alt: "Bootstrap" },
         { src: Tailwind_Logo, alt: "Tailwind" },
       ],
     },
     {
-      title: "Version Control",
+      title: "Other Services",
       items: [
         { src: Git_Logo, alt: "Git" },
         { src: Github_Logo, alt: "Github" },
+        { src: Linux_Logo, alt: "Linux" },
+        { src: Firebase_Logo, alt: "Firebase" },
+        { src: grafana_logo, alt: "Grafana" },
       ],
     },
     {
-      title: "Other tools & Services",
+      title: "Other tools",
       items: [
-        { src: Firebase_Logo, alt: "Firebase" },
         { src: androi_logo, alt: "Android Studio" },
-        { src: grafana_logo, alt: "Grafana" },
         { src: postman_logo, alt: "Postman" },
-        { src: Linux_Logo, alt: "Linux" },
         { src: VSCode_Logo, alt: "Visual Studio Code" },
+        { src: figma_logo, alt: "Figma" },
+        { src: photoshoplogo, alt: "Photoshop" },
       ],
     },
   ];

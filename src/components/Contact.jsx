@@ -9,7 +9,7 @@ function Contact(){
         <p className="text-gray-400 text-base">
           DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.
         </p>
-        <a href={`tel:+91${phone}`} className="text-gray-400 text-2xl hover:text-white">+91-{phone}</a>
+        <a href={`tel:${phone}`} className="text-gray-400 text-2xl hover:text-white">{phone}</a>
         <a href={`mailto:${mail}`} className="text-gray-400 text-2xl hover:text-white">{mail}</a>
         <div className="flex justify-center gap-5 mt-10">
           <a href={github} target="_blank" className="text-4xl cursor-pointer " rel="noreferrer" >

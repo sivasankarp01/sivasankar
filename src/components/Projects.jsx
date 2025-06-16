@@ -8,20 +8,7 @@ function Projects() {
   const [visible,setVisible] = useState(0);
   const [isLargeScreen, setIsLargeScreen] = useState(false);
   const projects = [
-    {
-      id: 1,
-      image: todo,
-      imageAlt: "Todo App",
-      name: "Todo App",
-      description: "Simple Website to manage Daily task",
-      links: {
-        gitHub: "https://github.com/sivasankarp01/Todoapp-React.js",
-        hosted: "https://sivasankarp01.github.io/Todoapp-React.js/"
-      },
-      tags: [
-        "html", "css", "javascript", "React.js"
-      ]
-    },
+   
     {
       id: 5,
       image: manpoer,
@@ -30,7 +17,7 @@ function Projects() {
       description: "Find and Book Reliable Workers Anytime, Anywhere.Looking for help with daily tasks, home repairs, cleaning, or other services? Our app connects you with skilled and verified workers near you—quickly and easily. Whether it’s a one-time job or ongoing help, we’ve got you covered",
       links: {
         gitHub: "https://github.com/sivasankarp01",
-        hosted: "https://github.com/sivasankarp01"
+        hosted: "https://play.google.com/store/apps/details?id=com.manpower.manpower2024&pcampaignid=web_share"
       },
       tags: [
         "Flutter", "dart","BLoC","Firebase","Hive","Secure Storage","FCM"
@@ -62,6 +49,20 @@ function Projects() {
       },
       tags: [
         "Flutter", "dart","Firebase", "Hive","Secure Storage","FCM"
+      ]
+    },
+     {
+      id: 1,
+      image: todo,
+      imageAlt: "Todo App",
+      name: "Todo App",
+      description: "Simple Website to manage Daily task",
+      links: {
+        gitHub: "https://github.com/sivasankarp01/Todoapp-React.js",
+        hosted: "https://sivasankarp01.github.io/Todoapp-React.js/"
+      },
+      tags: [
+        "html", "css", "javascript", "React.js"
       ]
     },
    
