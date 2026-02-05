@@ -95,7 +95,7 @@ export const Hero = () => {
               size="lg"
               className="group"
             >
-              <a href="/Sivasankar_Frontend_Developer_Resume.pdf.pdf" download>
+              <a href="/Sivasankar_Frontend_Developer_Resume_UAE.pdf" download>
                 <Download className="mr-2 h-4 w-4 group-hover:animate-bounce" />
                 Download Resume
               </a>
