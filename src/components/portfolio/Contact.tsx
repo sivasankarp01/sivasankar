@@ -40,11 +40,17 @@ const contactInfo = [
     value: "sivasankar001.dev@gmail.com",
     href: "mailto:sivasankar001.dev@gmail.com",
   },
+   {
+    icon: Phone,
+    label: "Phone",
+    value: "+91 9159032689",
+    href: "tel:+919159032689",
+  },
   {
     icon: Phone,
     label: "Phone",
-    value: "+971 52 770 3015",
-    href: "tel:+971527703015",
+    value: "+971 556398251",
+    href: "tel:+971556398251",
   },
   {
     icon: MapPin,
