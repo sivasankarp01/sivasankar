@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import { ExternalLink, Github, ShoppingCart, LineChart, Users, Fingerprint } from "lucide-react";
+import { ExternalLink, Github, ShoppingCart, LineChart, Users, Fingerprint, Globe, CalendarCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const projects = [
@@ -72,6 +72,42 @@ const projects = [
     codeUrl: "#",
     color: "from-orange-500 to-red-500",
   },
+  {
+    title: "Kalaimagalsabha Portal",
+    subtitle: "Tamil Nadu Government Public Services Platform",
+    description:
+      "Responsive web portal developed for the Tamil Nadu Government Registration Department to manage documents, citizen service requests, and public announcements.",
+    icon: Globe,
+    technologies: ["React.js", "JavaScript", "HTML5", "CSS3", "REST APIs"],
+    features: [
+      "Citizen service request and form submission system",
+      "Government document management portal",
+      "Event and public announcement management",
+      "Optimized UI improving accessibility and engagement",
+      "Digital workflow for document submission and services",
+    ],
+    demoUrl: "https://kalaimagalsabha.in",
+    codeUrl: "#",
+    color: "from-blue-500 to-indigo-500",
+  },
+  {
+    title: "Redruby VMS",
+    subtitle: "Venue Management & Booking System",
+    description:
+      "Flutter-based mobile application designed to streamline venue booking, event scheduling, and facility management for organizations.",
+    icon: CalendarCheck,
+    technologies: ["Flutter", "Dart", "REST API", "Mobile App"],
+    features: [
+      "Multi-role authentication (Admin, Auditor, Staff)",
+      "Venue booking and scheduling management",
+      "Center auditing and report submission modules",
+      "Real-time booking updates and scheduling",
+      "REST API integration for data management",
+    ],
+    demoUrl: "https://play.google.com/store/apps/details?id=com.vms.vmsapp&hl=en_IN",
+    codeUrl: "#",
+    color: "from-purple-500 to-pink-500",
+  }
 ];
 
 export const Projects = () => {

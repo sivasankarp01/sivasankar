@@ -40,22 +40,22 @@ const contactInfo = [
     value: "sivasankar001.dev@gmail.com",
     href: "mailto:sivasankar001.dev@gmail.com",
   },
-   {
+  {
     icon: Phone,
-    label: "Phone",
+    label: "India Phone",
     value: "+91 9159032689",
     href: "tel:+919159032689",
   },
   {
     icon: Phone,
-    label: "Phone",
+    label: "UAE Phone",
     value: "+971 556398251",
     href: "tel:+971556398251",
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "Abu Dhabi, UAE",
+    value: "Abu Dhabi, UAE & Chennai India",
     href: null,
   },
 ];
@@ -122,7 +122,7 @@ export const Contact = () => {
             </p>
           </motion.div>
 
-          <div className="">
+          <div className="flex gap-5 justify-between">
             {/* Contact info */}
             <motion.div
               initial={{ opacity: 0, x: -30 }}
@@ -136,7 +136,7 @@ export const Contact = () => {
               </p>
 
               {/* Contact details */}
-              <div className="space-y-4 mb-8">
+              <div className="space-y-4 mb-8  ">
                 {contactInfo.map((item) => (
                   <div key={item.label} className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
@@ -178,72 +178,56 @@ export const Contact = () => {
               </div>
             </motion.div>
 
+
+
             {/* Contact form */}
-            {/* <motion.div
+            <motion.div
               initial={{ opacity: 0, x: 30 }}
               animate={isVisible ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className="glass-card rounded-2xl p-8"
+              className="glass-card rounded-2xl p-8 flex justify-center items-center"
             >
-              <Form {...form}>
-                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
-                  <FormField
-                    control={form.control}
-                    name="name"
-                    render={({ field }) => (
-                      <FormItem>
-                        <FormLabel>Name</FormLabel>
-                        <FormControl>
-                          <Input placeholder="Your name" {...field} />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )}
-                  />
 
-                  <FormField
-                    control={form.control}
-                    name="email"
-                    render={({ field }) => (
-                      <FormItem>
-                        <FormLabel>Email</FormLabel>
-                        <FormControl>
-                          <Input placeholder="your.email@example.com" type="email" {...field} />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )}
-                  />
 
-                  <FormField
-                    control={form.control}
-                    name="message"
-                    render={({ field }) => (
-                      <FormItem>
-                        <FormLabel>Message</FormLabel>
-                        <FormControl>
-                          <Textarea
-                            placeholder="Tell me about your project..."
-                            className="min-h-[150px] resize-none"
-                            {...field}
-                          />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )}
-                  />
+              <div className="text-center space-y-6">
+                <div className="w-16 h-16 mx-auto rounded-full bg-primary/10 flex items-center justify-center">
+                  <Send className="w-7 h-7 text-primary" />
+                </div>
 
-                  <Button
-                    type="submit"
-                    size="lg"
-                    className="w-full bg-gradient-primary hover:opacity-90"
+                <h3 className="text-xl font-semibold">
+                  Start a Project With Me
+                </h3>
+
+                <p className="text-muted-foreground">
+                  I'm currently available for freelance work, collaborations,
+                  and full-time opportunities. If you have a project or idea,
+                  let's build something amazing together.
+                </p>
+
+                <div className="flex flex-col gap-3 pt-4">
+                  <a
+                    href="mailto:sivasankar001.dev@gmail.com"
+                    className="w-full"
                   >
-                    <Send className="w-4 h-4 mr-2" />
-                    Send Message
-                  </Button>
-                </form>
-              </Form>
-            </motion.div> */}
+                    <Button className="w-full bg-gradient-primary">
+                      <Mail className="mr-2 h-4 w-4" />
+                      Email Me
+                    </Button>
+                  </a>
+
+                  <a
+                    href="https://www.linkedin.com/in/sivasankar-p-97b2ba274"
+                    target="_blank"
+                    className="w-full"
+                  >
+                    <Button variant="outline" className="w-full">
+                      <Linkedin className="mr-2 h-4 w-4" />
+                      Connect on LinkedIn
+                    </Button>
+                  </a>
+                </div>
+              </div>
+            </motion.div>
           </div>
         </div>
       </div>
