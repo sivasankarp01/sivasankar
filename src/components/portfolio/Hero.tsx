@@ -84,7 +84,7 @@ export const Hero = () => {
             </Button>
 
             <Button asChild variant="outline" size="lg">
-              <a href="/Sivasankar_Frontend_Developer_Resume_India.pdf" download>
+              <a href="/Sivasankar_Frontend_Resume_UAE.pdf" download>
                 <Download className="mr-2 h-4 w-4" />
                 Download Resume
               </a>

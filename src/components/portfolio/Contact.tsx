@@ -40,17 +40,18 @@ const contactInfo = [
     value: "sivasankar001.dev@gmail.com",
     href: "mailto:sivasankar001.dev@gmail.com",
   },
-  {
-    icon: Phone,
-    label: "India Phone",
-    value: "+91 9159032689",
-    href: "tel:+919159032689",
-  },
+
   {
     icon: Phone,
     label: "UAE Phone",
     value: "+971 556398251",
     href: "tel:+971556398251",
+  },
+  {
+    icon: Phone,
+    label: "India Phone",
+    value: "+91 9159032689",
+    href: "tel:+919159032689",
   },
   {
     icon: MapPin,
@@ -64,7 +65,7 @@ const socialLinks = [
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/sivasankar-p-97b2ba274",
+    href: "https://www.linkedin.com/in/sivasankarp001/",
   },
   {
     icon: Github,
