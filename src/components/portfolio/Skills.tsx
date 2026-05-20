@@ -141,6 +141,7 @@ const cells: Cell[] = [
       "Prompt Engineering",
       "Vibe Coding"
     ],
+      wide: true,
   },
   {
     icon: <Wrench />,
@@ -153,7 +154,7 @@ const cells: Cell[] = [
       "Xcode",
       "TestFlight"
     ],
-    // wide: true,
+    wide: true,
   },
 ];
 

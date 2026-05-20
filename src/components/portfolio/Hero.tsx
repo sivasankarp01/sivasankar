@@ -15,7 +15,7 @@ const ROTATING = [
   "Scalable Apps",
   "Pixel-Perfect UI",
   "AWS Deployments",
-  "10+ Products",
+  "20+ Products",
 ];
 
 export function Hero() {
