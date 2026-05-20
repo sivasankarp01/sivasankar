@@ -129,7 +129,7 @@ export function Hero() {
               </a>
 
               <a
-                href="/src/resume/Sivasankar_Frontend_UAE.pdf"
+                href="/Sivasankar_Frontend_UAE.pdf"
                 target="_blank"
                 className="flex items-center gap-2 px-6 py-3 rounded-xl bg-gold text-black font-medium"
               >
