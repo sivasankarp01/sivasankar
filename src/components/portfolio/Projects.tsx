@@ -7,45 +7,73 @@ const projects = [
   {
     tag: "E-Commerce",
     title: "Bazaario",
-    desc: "Full-featured e-commerce platform with zero-downtime deployments and ironclad auth.",
-    stack: ["Next.js", "AWS EC2", "JWT", "Nginx", "CI/CD"],
+    desc: "Multi-tenant e-commerce platform enabling Shopify-style store creation, custom domains, affiliate marketing, and AWS-powered scalable deployments.",
+    stack: ["Next.js", "Node.js", "AWS", "REST APIs", "CI/CD"],
     live: "https://bazaario.io",
   },
   {
-    tag: "Fintech",
+    tag: "FinTech",
     title: "Tezcai",
-    desc: "Real-time crypto analytics dashboard with optimized rendering and SEO at the edge.",
-    stack: ["Next.js", "React.js", "REST API", "SEO"],
+    desc: "Crypto trading and analytics platform with live market data, TradingView integration, automated trading bots, and real-time portfolio tracking.",
+    stack: ["Next.js", "WebSockets", "Binance API", "OKX API", "TradingView"],
     live: "https://tezcai.com",
   },
   {
-    tag: "HR Tech",
+    tag: "HRMS",
     title: "Zigma Work Pro",
-    desc: "Face-recognition attendance system that reduced manual errors by 90%.",
-    stack: ["Flutter", "Firebase", "ML Kit", "Face Recognition"],
+    desc: "Mobile workforce management system with face recognition, geo-fenced attendance, leave management, payroll, and Odoo integration.",
+    stack: ["Flutter", "Firebase", "ML Kit", "Odoo API"],
     live: "https://play.google.com/store/apps/details?id=com.redruby.zigmaworkpro",
   },
   {
-    tag: "Mobile",
+    tag: "Marketplace",
     title: "Manpower",
-    desc: "Real-time cross-platform worker booking app with FCM notifications and live chat.",
+    desc: "Location-based worker booking platform with real-time chat, booking management, push notifications, and geolocation services.",
     stack: ["Flutter", "Firebase", "FCM", "Geolocation"],
     live: "https://play.google.com/store/apps/details?id=com.manpower.manpower2024",
   },
-   {
-    tag: "Public Portal",
-    title: "Kalaimagalsabha.in",
-    desc: "Developed a responsive web portal for the Tamil Nadu Government Registration Department, enabling document management, citizen service requests, and public announcements using modern frontend technologies",
-    stack: ["Next.js", "React.js", "REST API", "SEO"],
+  {
+    tag: "Government",
+    title: "Kalaimagalsabha",
+    desc: "Government public services portal featuring document management, citizen workflows, authentication, verification processes, and digital record access.",
+    stack: ["React.js", "Python", "REST APIs", "PDF Viewer"],
     live: "https://kalaimagalsabha.in",
   },
-    {
-    tag: "VMS",
-    title: "Redruby VMS- Venue Management System",
-    desc: "Developed a Flutter-based mobile application for venue booking, event scheduling, and facility management,improving operational efficiency and streamlining administrative workflows.",
-     stack: ["Flutter", "Firebase", "REST Api" ,"FCM"],
+  {
+    tag: "Venue Management",
+    title: "Redruby VMS",
+    desc: "Venue booking and facility management platform supporting event scheduling, audit workflows, PDF reporting, and e-signature approvals.",
+    stack: ["Flutter", "REST APIs", "PDF Generation", "FCM"],
     live: "https://play.google.com/store/apps/details?id=com.vms.vmsapp&hl=en_IN",
   },
+  {
+    tag: "AI Platform",
+    title: "Auvira Assistant",
+    desc: "Built an AI-driven operations platform integrating calls, WhatsApp, SMS, email, scheduling, payments, analytics, and enterprise workflows into a unified automation system.",
+    stack: ["Next.js", "AI", "REST APIs", "Automation", "Analytics"],
+    live: "https://auvira.io",
+  },
+  {
+    tag: "Trading Automation",
+    title: "Namaio",
+    desc: "Smart Forex trading assistant enabling automated trade execution, broker integration, risk-controlled strategies, and real-time portfolio monitoring.",
+    stack: ["Next.js", "REST APIs", "Trading APIs", "Automation", "Analytics"],
+    live: "https://namaio.com",
+  },
+  {
+    tag: "HRMS",
+    title: "Face Tag AMS",
+    desc: "Face recognition-based attendance management system for students, employees, and workforce tracking with real-time attendance validation and reporting.",
+    stack: ["Flutter", "Firebase", "ML Kit", "Face Recognition", "REST APIs"],
+    live: "https://play.google.com/store/apps/details?id=com.redruby.facetag",
+  },
+  {
+    tag: "Business Website",
+    title: "Kalixi",
+    desc: "Modern digital agency website showcasing mobile app development, web solutions, and digital marketing services with a responsive and conversion-focused user experience.",
+    stack: ["React.js", "TypeScript", "Tailwind CSS", "Responsive Design"],
+    live: "https://kalixi.lovable.app",
+  }
 ];
 
 export function Projects() {
@@ -107,7 +135,7 @@ function ProjectCard({ tag, title, desc, stack, live, index }: typeof projects[n
             <span className="px-3 py-1 rounded-full font-mono text-[10px] uppercase tracking-[0.2em] glass border border-electric/30 text-electric">
               {tag}
             </span>
-            <span className="font-mono text-xs text-muted-foreground">0{index + 1}</span>
+            <span className="font-mono text-xs text-muted-foreground">{index+1 !==10 ? 0 :""}{index + 1}</span>
           </div>
 
           <h3 className="font-display font-bold text-3xl md:text-4xl tracking-tight">{title}</h3>

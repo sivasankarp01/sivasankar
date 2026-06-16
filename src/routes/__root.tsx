@@ -10,6 +10,19 @@ import {
 
 import appCss from "../styles.css?url";
 
+const themeScript = `
+(() => {
+  try {
+    const stored = localStorage.getItem("theme");
+    const theme = stored === "light" || stored === "dark" ? stored : "dark";
+    document.documentElement.classList.remove("light", "dark");
+    document.documentElement.classList.add(theme);
+  } catch {
+    document.documentElement.classList.add("dark");
+  }
+})();
+`;
+
 function NotFoundComponent() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
@@ -98,6 +111,7 @@ function RootShell({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
         <HeadContent />
       </head>
       <body>

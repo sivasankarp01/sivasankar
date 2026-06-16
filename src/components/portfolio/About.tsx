@@ -20,10 +20,11 @@ export function About() {
             transition={{ duration: 0.7 }}
             className="text-xl md:text-3xl font-display leading-snug text-foreground/90"
           >
-            Results-driven Frontend Developer with{" "}
-            <span className="text-gold">3+ years</span> building scalable web and
-            mobile applications across UAE and India. Currently at{" "}
-            <span className="text-gold">Saadah Investment LLC</span> (Sakab Group), Abu Dhabi.
+            Software Developer with <span className="text-gold">3+ years</span> of
+            experience delivering enterprise applications, e-commerce platforms, and
+            cloud solutions. Specializing in React, Next.js, Flutter, Node.js, Python,
+            and AWS, with a focus on performance, scalability, and exceptional user
+            experiences.
           </motion.p>
 
           <motion.div

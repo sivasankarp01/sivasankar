@@ -60,12 +60,12 @@ export function Hero() {
                 md:text-6xl
                 lg:text-7xl
                 leading-none
-                whitespace-nowrap
+                lg:whitespace-nowrap
               "
             >
               SIVASANKAR{" "}
               <span className="text-gold">
-                P
+               {" "} PAZHANI
               </span>
             </motion.h1>
 
@@ -112,7 +112,7 @@ export function Hero() {
               transition={{ delay: 0.4 }}
               className="mt-6 text-muted-foreground max-w-xl mx-auto lg:mx-0"
             >
-              Frontend Developer specializing in React.js,
+              Software Developer specializing in React.js,
               Next.js, Flutter, AWS, and scalable web & mobile
               applications with a focus on performance,
               accessibility, and user experience.
@@ -129,7 +129,7 @@ export function Hero() {
               </a>
 
               <a
-                href="/Sivasankar_Frontend_UAE.pdf"
+                href="/Sivasankar_Resume.pdf"
                 target="_blank"
                 className="flex items-center gap-2 px-6 py-3 rounded-xl bg-gold text-black font-medium"
               >

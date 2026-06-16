@@ -17,7 +17,7 @@ export function SectionTitle({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-80px" }}
       transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-      className={align === "center" ? "text-center mx-auto max-w-2xl" : "max-w-2xl"}
+      className={align === "center" ? "text-center mx-auto max-w-2xl" : "max-w-4xl"}
     >
       {eyebrow && (
         <p className="font-mono text-xs uppercase tracking-[0.3em] text-gold mb-4">

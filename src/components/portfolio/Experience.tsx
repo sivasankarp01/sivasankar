@@ -10,10 +10,13 @@ const items = [
     period: "June 2025 – Present",
     current: true,
     points: [
-      "Developing enterprise-grade web and mobile applications with React.js, Next.js, Flutter, and TypeScript",
-      "Building scalable API-driven solutions using REST, GraphQL, and microservice architectures",
-      "Managing AWS cloud deployments with Docker, Nginx, and automated CI/CD pipelines",
-      "Driving code quality through testing, peer reviews, and clean architecture practices",
+      "Led the development of e-commerce platforms and AI-powered trading solutions using Next.js, Node.js, and Django, improving application performance and user engagement by 25%.",
+      "Integrated Amazon Seller Central SP-API and automated product listing workflows, reducing manual catalog management effort by 60%.",
+      "Built product data extraction pipelines to streamline inventory management and marketplace operations.",
+      "Developed AI-powered chatbots, affiliate marketing workflows, and order tracking systems to enhance customer engagement and operational efficiency.",
+      "Created Shopify-style storefront experiences, increasing customer interaction efficiency by 35%.",
+      "Implemented SEO optimizations and UI/UX enhancements, contributing to a 30% increase in organic traffic.",
+      "Managed Meta Ads campaigns and AWS-hosted deployments to improve platform visibility, scalability, and reliability."
     ],
   },
   {
@@ -22,10 +25,13 @@ const items = [
     location: "Chennai, India",
     period: "July 2023 – May 2025",
     points: [
-      "Successfully delivered 10+ cross-platform applications for Android, iOS, and Web",
-      "Architected reusable UI systems and scalable frontend solutions across multiple projects",
-      "Integrated authentication, Firebase services, and third-party APIs for production environments",
-      "Led application publishing, deployment automation, and release management processes",
+      "Delivered 10+ enterprise and client-facing applications across ERP, HRMS, and Document Management Systems using React.js, Next.js, Flutter, and React Native.",
+      "Collaborated with stakeholders to gather requirements and translate business needs into scalable technical solutions.",
+      "Developed dashboards, data collection workflows, PDF reporting systems, and automated invoice generation modules.",
+      "Engineered advanced features including face recognition, bulk data upload, and interactive data visualization.",
+      "Leveraged Grafana for server monitoring, performance tracking, and operational insights.",
+      "Managed App Store and Google Play Store release processes, including testing, deployment, and production rollouts.",
+      "Built and maintained responsive, high-performance applications focused on scalability, usability, and reliability."
     ],
   },
   {
@@ -34,10 +40,12 @@ const items = [
     location: "Bengaluru, India",
     period: "July 2022 – March 2023",
     points: [
-      "Built responsive Flutter applications from design specifications",
-      "Handled Play Store releases, version control, and production deployments",
-      "Conducted testing and debugging to improve reliability and user experience",
-    ],
+      "Developed and maintained a Flutter-based School Management Application serving 1,000+ users with attendance tracking, homework management, timetable scheduling, exam schedules, and notifications.",
+      "Designed and implemented 15+ responsive Flutter UI screens, ensuring a seamless and consistent experience across Android devices.",
+      "Implemented secure user authentication, real-time data management, and notification workflows to support academic and administrative operations.",
+      "Managed end-to-end Google Play Store deployment, including Play Console setup, internal testing, app signing, and production releases.",
+      "Delivered stable production releases with a 100% successful deployment record and streamlined app distribution process."
+    ]
   },
 ];
 
@@ -45,7 +53,7 @@ export function Experience() {
   return (
     <section id="experience" className="relative py-32 px-6">
       <div className="max-w-5xl mx-auto">
-        <SectionTitle eyebrow="Journey" title="Three years. Three companies. Real impact." />
+        <SectionTitle eyebrow="Journey" title="Experience" />
 
         <div className="relative mt-20 pl-6 md:pl-10">
           <div className="absolute left-0 top-2 bottom-2 w-px bg-gradient-to-b from-gold/60 via-gold/20 to-transparent" />

@@ -5,7 +5,7 @@ const stats = [
   { value: 3, suffix: "+", label: "Years of Experience" },
   { value: 20, suffix: "+", label: "Projects Delivered" },
   { value: 10, suffix: "+", label: "Technologies Mastered" },
-  { value: 100, suffix: "%", label: "Client Satisfaction" },
+  { value: 100, suffix: "%", label: "User Satisfaction" },
 ];
 
 export function Stats() {

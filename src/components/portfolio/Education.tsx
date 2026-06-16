@@ -41,7 +41,7 @@ export function Education() {
             </p>
             <div className="mt-6 flex items-center gap-4 flex-wrap">
               <div className="px-4 py-2 rounded-xl bg-gold/10 border border-gold/30 text-gold font-display font-semibold">
-                CGPA 8.74 / 10.0 ⭐
+              First Class with Distinction ⭐ CGPA 8.74 / 10.0 
               </div>
               <span className="text-sm text-muted-foreground">
                 Specialization: IT - Cloud and Mobile-Based Application Development
